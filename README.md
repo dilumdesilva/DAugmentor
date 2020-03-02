@@ -6,21 +6,12 @@
 1. Setting up your PC
 2. Setting up your project environment 
 
+### Installation
 
+### Usage
 
-Follow this for the documentation
-Project name
+### Contributing
 
-Description
+### Credits
 
-Table of Contents
-
-Installation
-
-Usage
-
-Contributing
-
-Credits
-
-License
+### License
