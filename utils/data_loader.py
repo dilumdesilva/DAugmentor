@@ -56,7 +56,7 @@ class DataLoader:
                 # reading image
                 image = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
                 # downscaling image to 28x28
-                image = cv2.resize(image, (28, 28))
+                image = cv2.resize(image, (128, 128))
                 x_train.append(image)
                 print("Loaded: " + img_path)
                 # extracting labels
@@ -68,7 +68,7 @@ class DataLoader:
                 # reading image
                 image = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
                 # downscaling image to 28x28
-                image = cv2.resize(image, (28, 28))
+                image = cv2.resize(image, (128, 128))
                 x_test.append(image)
                 print("Loaded: " + img_path)
                 # extracting labels

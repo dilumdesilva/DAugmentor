@@ -68,7 +68,7 @@ print(x_train[0].shape)
 print(xtrain[0].shape)
 print(x_test[0].shape)
 
-i = x_train[10]
+i = x_train[100]
 plt.imshow(i)
 plt.show()
 

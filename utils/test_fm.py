@@ -1,3 +1,3 @@
-from keras.datasets.fashion_mnist import load_data
+from utils import constants as const
 
-images = load_data()
+print(const.PATH)
